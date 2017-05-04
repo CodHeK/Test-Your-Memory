@@ -23,10 +23,12 @@
         $(".image").fadeToggle("4000");
       }
     });
+   $(document).keypress(function(event) {
+	if(event.which === 17 && event.which === 16 && event.which === 73) {
+		alert("No Cheating, close inspect ! :p ");
+	}
 });
-  </script>
- <script>
-   document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }}
+});
  </script>
 
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"> 
